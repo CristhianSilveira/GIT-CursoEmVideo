@@ -1,0 +1,103 @@
+			Anotações GIT - CursoEmVideo
+
+
+
+1- O que é Git e GitHub: 
+	Git = Software de controle de versão
+	GitHub = Plataforma de rede social para programadores
+
+	1.1- Git:
+		Versionamento é o controle de versão, podendo voltar para versões antigas.
+
+	1.2- GitHub:
+		É o local onde fica seus repositórios.
+
+	1.3- Usando GitHub Desktop:
+
+		1.3.1- Criar repositório:
+			Clique em file, depois em new repository. Coloque o nome do repositório, uma descrição e o local do salvamento dos arquivos. Marque a opção do README e coloque a licença como MIT. Depois marque a opção se quiser que o seu repositório no GitHub seja privado, caso contrario desmarque.
+
+		1.3.2- Criando commit:
+			Marque as alterações, coloque um summary(nome da alteração) e clique em Commit to main.
+
+		1.3.3- Colocando o commit no repositório remoto:
+			Após ter feito os passos anteriores, aperte em Push origin. pronto seu repositório está criado e salvo.
+
+	1.4- Clonando um Repositório:
+		(1) Acessa o perfil de alguém e escolha o repositório. (2) Aperte em code e depois em "Abrir com GitHub Desktop". (3) Escolha o local de salvamento dos arquivos no seu pc.
+
+	1.5- Issues(problemas):
+		É um local para erros e problemas do repositório, é tipo um forum de ajuda do repositório.
+
+	1.6- Markdown:
+		É uma linguagem para gerenciar o README.md, issues ou pull requests.
+
+		1.6.1- Negrito:
+			Adicionar **(frase)**. EX: Olá, **Mundo**
+
+		1.6.2- Texto riscado:
+			Adicionar ~~(frase)~~. EX: Olá, ~~Mundo~~
+
+		1.6.3- Itálico:
+			Adicionar _(frase)_. EX: Olá, _Mundo_
+
+		1.6.4- Título:
+			Adicionar #(nível1), ##(nível2), ###(nível3). EX: # Meu título principal. EX2: ## Meu subtítulo
+
+		1.6.5- Linha horizontal(demarcada):
+			Adicionar ***. EX: ***
+
+		1.6.6- Lista numerada:
+			Adicionar número + . .EX: 1. Teste. EX2: 2. Teste 2
+
+		1.6.7- Lista demarcada:
+			Adicionar *. EX: * Café * Arroz * Feijão
+
+		1.6.8- Lista de tarefas:
+			Adicionar -[ ]. e caso a tarefa esteja concluída colocar -[x]. EX: -[x] Acordar -[ ] Estudar -[ ] Almoçar
+
+		1.6.9- Colocar imagem:
+			Adicionar ![descrição](url). EX: ![CursoEmVideo](https://cursoemvideo.com/logo.png)
+
+		1.6.10- Colocar links:
+			Adicionar [texto](url). EX: [Clique aqui para ir ao youtube](https://youtube.com)
+
+		1.6.11- Tabelas:
+			Adicionar o nome seguido de |. 
+			EX: ID | Nome | idade
+				---|---|---
+				1 | Gustavo | 26
+				2 | Cristhian | 20
+				3 | Ana | 19
+
+		1.6.12- Trecho de código
+			Adicionar ``` (Código) ```. 
+			EX:	```
+				num = input("Digite um número: ")
+					if num % 2 = 0:
+						printf("O número é IMPAR")
+					else:
+						printf("O número é PAR")
+				```
+
+		1.6.13- Emojis:
+			Adicionar :(nome). EX: :hand :heart :monkey. >>Resultado: ✋ ❤️ 🐒 
+
+		1.6.14- Criar uma citação:
+			Adicionar > (texto). > Será que vai chover???
+
+		1.6.14- Marcar pessoa na issue:
+			Adicionar @. EX: @anaSantos
+
+		1.6.15- Mencionar issues:
+			Adicionar #. EX: Veja a issue #3
+
+	1.7- Segurança no GitHub:
+		1.7.1- Senhas fortes:
+			Pelo menos 8 caracteres, letras e números, maiúsculas e minúsculas, símbolos
+
+		1.7.2- Autenticação em 2 fatores:
+			Baixar o app authenticator na playStore e sincronize com o GitHub.
+
+	1.8- Branch(ramificações):
+		
