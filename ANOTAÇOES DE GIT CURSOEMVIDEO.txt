@@ -60,7 +60,7 @@
 			Adicionar ![descrição](url). EX: ![CursoEmVideo](https://cursoemvideo.com/logo.png)
 
 		1.6.10- Colocar links:
-			Adicionar [texto](url). EX: [Clique aqui para ir ao youtube](https://youtube.com)
+			Adicionar [texto](url). EX: [Clique aqui para ir ao YouTube](https://youtube.com)
 
 		1.6.11- Tabelas:
 			Adicionar o nome seguido de |. 
@@ -100,4 +100,16 @@
 			Baixar o app authenticator na playStore e sincronize com o GitHub.
 
 	1.8- Branch(ramificações):
-		
+		São usadas para separar o trabalho em equipes. Por exemplo tenho um código base da master, tenho o código da equipe de design e tenho o código da equipe de conteúdo. Cada um trabalhando com seu código, no final de tudo quando estiver todos os códigos prontos, a branch master pega os commit das branch de conteúdo e design e mescla no arquivo de código base.
+
+		1.8.1- Criar branch:
+			(1) Clique em Branch no GitHub Desktop. (2) Clique em New Branch. (3) Crie um nome e selecione a primeira opção. (4) De um push para jogar no repositório remoto.
+
+		1.8.2- Usar a branch correta:
+			Para modificar o código da branch correta, basta apertar em "Current branch" e selecionar a branch, em seguida abrir no vs code.
+
+		1.8.3- Commit tudo para a branch master:
+			(1) Vai em branch. (2) Selecione "merge into current branch". (3) Selecione a branch criada para jogar na branch master. (4) Clique em "Create a merge commit". (5) De um push no repositório remoto.
+
+	1.9- GitGub Pages:
+		(1) Escolha um repositório. (2) Clique em Settings. (3) Clique em Pages. (4) Em branch escolha main e depois aperte em Save
